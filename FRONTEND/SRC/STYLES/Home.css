@@ -1,0 +1,73 @@
+/* Custom CSS for additional styling */
+body {
+  background-color: #f8f9fa;
+  font-family: Arial, sans-serif;
+}
+.jumbotron {
+  background-color: #003366;
+  color: white;
+  padding: 80px 20px;
+  text-align: center;
+  animation: fadeIn 1s ease-in-out; /* Fade-in animation */
+}
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+.display-4 {
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+.lead {
+  font-size: 1.2rem;
+  margin-bottom: 40px;
+}
+.btn-primary {
+  background-color: #ff5722;
+  border-color: #ff5722;
+  padding: 12px 30px;
+  font-size: 1.2rem;
+  font-weight: bold;
+  letter-spacing: 1px;
+}
+.btn-primary:hover {
+  background-color: #e64a19;
+  border-color: #e64a19;
+}
+.feature-box {
+  background-color: #ffffff;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+  opacity: 0;
+  transform: translateY(20px);
+  animation: fadeInUp 1s forwards; /* Fade-in and slide-up animation */
+}
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+.feature-icon {
+  font-size: 3rem;
+  color: #ff5722;
+  margin-bottom: 20px;
+}
+.feature-title {
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+.feature-description {
+  color: #555555;
+}
+
+/* fix the navbar */
